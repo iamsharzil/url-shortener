@@ -14,8 +14,12 @@
 
 2. Get the long url
 
-    http/127.0.0.1:5000/api/:urlCode
-      eg - http/127.0.0.1:5000/api/5tjPnDuDV
+   - http/127.0.0.1:5000/api/:urlCode
+   - Eg-
+    
+       ```
+       http/127.0.0.1:5000/api/5tjPnDuDV
+       ```
 
       On first GET request the redis will create two keys
 
