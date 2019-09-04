@@ -34,5 +34,5 @@
 3. To update the database with new count for each url
    run the command 
    ```
-   - node updateCount.js --import
+   node updateCount.js --import
    ```
