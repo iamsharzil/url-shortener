@@ -24,10 +24,10 @@
       On first GET request the redis will create two keys
 
           url code = longurl
-            eg - 5tjPnDuDV = www.google.com
+            eg - 5tjPnDuDV : www.google.com
 
           count = 0
-            eg - 5tjPnDuDV-count = 0
+            eg - 5tjPnDuDV-count : 0
 
       After this, the cache middleware wil be called and the count will get increment on each request
 
